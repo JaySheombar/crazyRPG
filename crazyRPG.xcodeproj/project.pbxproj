@@ -8,11 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9236A0872210ED97000D4805 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236A0862210ED97000D4805 /* AppDelegate.swift */; };
-		9236A0892210ED97000D4805 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9236A0882210ED97000D4805 /* GameScene.sks */; };
-		9236A08B2210ED97000D4805 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9236A08A2210ED97000D4805 /* Actions.sks */; };
 		9236A08D2210ED97000D4805 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236A08C2210ED97000D4805 /* GameScene.swift */; };
 		9236A08F2210ED97000D4805 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236A08E2210ED97000D4805 /* GameViewController.swift */; };
-		9236A0922210ED97000D4805 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9236A0902210ED97000D4805 /* Main.storyboard */; };
 		9236A0942210ED98000D4805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9236A0932210ED98000D4805 /* Assets.xcassets */; };
 		9236A0972210ED98000D4805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9236A0952210ED98000D4805 /* LaunchScreen.storyboard */; };
 		9236A0A22210ED98000D4805 /* crazyRPGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236A0A12210ED98000D4805 /* crazyRPGTests.swift */; };
@@ -39,11 +36,8 @@
 /* Begin PBXFileReference section */
 		9236A0832210ED97000D4805 /* crazyRPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crazyRPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9236A0862210ED97000D4805 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9236A0882210ED97000D4805 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		9236A08A2210ED97000D4805 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		9236A08C2210ED97000D4805 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		9236A08E2210ED97000D4805 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		9236A0912210ED97000D4805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9236A0932210ED98000D4805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9236A0962210ED98000D4805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9236A0982210ED98000D4805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,11 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				9236A0862210ED97000D4805 /* AppDelegate.swift */,
-				9236A0882210ED97000D4805 /* GameScene.sks */,
-				9236A08A2210ED97000D4805 /* Actions.sks */,
 				9236A08C2210ED97000D4805 /* GameScene.swift */,
 				9236A08E2210ED97000D4805 /* GameViewController.swift */,
-				9236A0902210ED97000D4805 /* Main.storyboard */,
 				9236A0932210ED98000D4805 /* Assets.xcassets */,
 				9236A0952210ED98000D4805 /* LaunchScreen.storyboard */,
 				9236A0982210ED98000D4805 /* Info.plist */,
@@ -238,11 +229,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9236A0922210ED97000D4805 /* Main.storyboard in Resources */,
-				9236A0892210ED97000D4805 /* GameScene.sks in Resources */,
 				9236A0942210ED98000D4805 /* Assets.xcassets in Resources */,
 				9236A0972210ED98000D4805 /* LaunchScreen.storyboard in Resources */,
-				9236A08B2210ED97000D4805 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9236A0902210ED97000D4805 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9236A0912210ED97000D4805 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9236A0952210ED98000D4805 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
